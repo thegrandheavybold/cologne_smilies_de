@@ -3,8 +3,6 @@ node_modules
 dist
 .DS_Store
 .BridgeSort
-src/assets/images
-src/assets/pdf
 
 # Local Netlify folder
 .netlify
