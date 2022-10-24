@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+			<title>{{ site.metaTitle }}</title>
+			<meta name="description" content="{{ site.metaDescription }}">
+
+		<link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="/assets/vendor/slick.css">
+		<link rel="stylesheet" type="text/css" href="/assets/css/bundle.css">
+	</head>
+
+  <body>
+    <div class="wrapper">
+      <div class="wrapper-inner">
+
+        {%- include "partials/header.njk" -%}
+
+
+          {{ content | safe }}
+
+
+        {%- include "partials/footer.njk" -%}
+
+      </div><!-- /.wrapper-inner -->
+    </div><!-- /.wrapper -->
+
+    <script src="/assets/vendor/jquery-3.1.1.min.js"></script>
+		<!--
+    <script src="/assets/vendor/slick.js"></script>
+    <script src="/assets/vendor/instagramFeed.min.js"></script>
+	-->
+    <script src="/assets/vendor/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/bundle.js"></script>
+
+
+  </body>
+</html>
