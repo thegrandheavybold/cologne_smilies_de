@@ -16,6 +16,7 @@
     "@11ty/eleventy": "^1.0.2"
   },
   "dependencies": {
+    "isotope": "^1.0.0-alpha.3",
     "moment": "^2.29.4"
   }
 }
