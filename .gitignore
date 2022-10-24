@@ -5,3 +5,6 @@ dist
 .BridgeSort
 src/assets/images
 src/assets/pdf
+
+# Local Netlify folder
+.netlify
