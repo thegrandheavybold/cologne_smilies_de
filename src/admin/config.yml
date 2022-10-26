@@ -11,9 +11,9 @@ public_folder: "/assets/images/uploads"
 logo_url: "/assets/images/logo.png"
 
 collections:
-  - name: "nextgame",
-    label: "Next Game",
-    file: "index.njk",
+  - name: "nextgame"
+    label: "Next Game"
+    file: "index.njk"
       fields: {
          - {label: "Layout", name: "layout", widget: "hidden", default: "layout/base.njk" }
          - {label: "Heim Team Logo", name: "heimteamlogo", widget: "image"}
