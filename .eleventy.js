@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
 
   //11ty PassthroughCopy
   eleventyConfig.addPassthroughCopy("./src/assets");
+  eleventyConfig.addPassthroughCopy("./src/admin");
 
   //Netlify CMS Admin Folder
   eleventyConfig.ignores.add("./src/admin");
