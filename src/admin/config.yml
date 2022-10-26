@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
+site_url: https://cologne-smilies.netlify.app
 
 media_folder: "src/assets/images/uploads"
 
@@ -11,8 +12,9 @@ public_folder: "/assets/images/uploads"
 logo_url: "/assets/images/logo.png"
 
 collections:
-  - name: "homepage"
-    label: "Homepage"
+  - name: "home"
+    label: "Home"
+    delete: false
     files:
       - label: "Next Game"
         name: "nextgame"
