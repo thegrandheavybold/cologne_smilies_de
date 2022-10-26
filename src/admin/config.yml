@@ -17,7 +17,7 @@ collections:
     files:
       - label: "Next Game"
         name: "nextgame"
-        file: "index.njk"
+        file: "src/index.njk"
         fields:
           - {label: "Base", name: "base", widget: "hidden", default: "layout/base.njk"}
           - {label: "Heim Team Logo", name: "heimteamlogo", widget: "image"}
