@@ -11,8 +11,8 @@ public_folder: "/assets/images/uploads"
 logo_url: "/assets/images/logo.png"
 
 collections:
-  - name: "index"
-    label: "Index"
+  - name: "homepage"
+    label: "Homepage"
     files:
       - label: "Next Game"
         name: "nextgame"
@@ -24,3 +24,7 @@ collections:
           - {label: "Publish Date", name: "date", widget: "datetime"}
           - {label: "Gast Team Logo", name: "gastteamlogo", widget: "image"}
           - {label: "Gast Team Name", name: "gastteamname", widget: "string"}
+
+          - {label: "Start time", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: true}
+
+          - {label: "Maps Link", name: "mapslink", widget: "string"}
