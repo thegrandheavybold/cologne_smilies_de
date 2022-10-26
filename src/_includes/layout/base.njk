@@ -36,6 +36,16 @@
     <script src="/assets/vendor/isotope.pkgd.min.js"></script>
     <script src="/assets/js/bundle.js"></script>
 
-
+		<script>
+		  if (window.netlifyIdentity) {
+		    window.netlifyIdentity.on("init", user => {
+		      if (!user) {
+		        window.netlifyIdentity.on("login", () => {
+		          document.location.href = "/admin/";
+		        });
+		      }
+		    });
+		  }
+		</script>
   </body>
 </html>
