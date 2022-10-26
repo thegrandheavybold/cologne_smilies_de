@@ -13,6 +13,7 @@ logo_url: "/assets/images/logo.png"
 collections:
   - name: "homepage"
     label: "Homepage"
+    create: true
     files:
       - label: "Next Game"
         name: "nextgame"
@@ -21,10 +22,9 @@ collections:
           - {label: "Base", name: "base", widget: "hidden", default: "layout/base.njk"}
           - {label: "Heim Team Logo", name: "heimteamlogo", widget: "image"}
           - {label: "Heim Team Name", name: "heimteamname", widget: "string"}
-          - {label: "Publish Date", name: "date", widget: "datetime"}
           - {label: "Gast Team Logo", name: "gastteamlogo", widget: "image"}
           - {label: "Gast Team Name", name: "gastteamname", widget: "string"}
 
-          - {label: "Start time", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: true}
+          - {label: "Start time", name: "start", widget: "datetime", default: "", date_format: "DD.MMMM", time_format: "HH:mm", format: "LLL", picker_utc: false}
 
           - {label: "Maps Link", name: "mapslink", widget: "string"}
