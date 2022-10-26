@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
+site_url: https://cologne-smilies.de
 
 media_folder: "src/assets/images/uploads"
 
@@ -14,10 +15,13 @@ collections:
   - name: "home"
     label: "Home"
     delete: false
+    media_library:
+      config:
+        multiple: true
     files:
       - label: "Next Game"
         name: "nextgame"
-        file: "index.njk"
+        file: "src/_data/nextgame.json"
         fields:
           - {label: "Base", name: "base", widget: "hidden", default: "layout/base.njk"}
           - {label: "Heim Team Logo", name: "heimteamlogo", widget: "image"}

@@ -232,19 +232,19 @@ layout: layout/base.njk
 
 			<div class="widget__item widget__item--primary">
 				<h2>
-					<img src="{{ nextgame.data.heimteamlogo | url }}" alt="">
+					<img src="{{ nextgame.data.heimteamlogo }}" alt="">
 
 					<span>gast</span>
 				</h2>
 
 				<h4>
-					<span>{{ nextgame.data.gastteamname }}</span>
+					<span>{{ gastteamname }}</span>
 				</h4>
 			</div><!-- /.widget__item -->
 		</div><!-- /.widget-score -->
 
 		<div class="section__actions">
-			<a href="{{ nextgame.data.mapslink }}" class="btn btn--border">
+			<a href="{{ mapslink }}" class="btn btn--border">
 				<span>
 					Google Maps Route
 
