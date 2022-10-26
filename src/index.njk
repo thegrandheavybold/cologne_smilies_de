@@ -209,13 +209,13 @@ layout: layout/base.njk
 		<div class="widget-score">
 			<div class="widget__item">
 				<h2>
-					<img src="{{ heimteamlogo | url }}" alt="">
+					<img src="{{ nextgame.data.heimteamlogo | url }}" alt="">
 
 					<span>Heim</span>
 				</h2>
 
 				<h4>
-					<span>{{ heimteamname }}</span>
+					<span>{{ nextgame.data.heimteamname }}</span>
 				</h4>
 			</div><!-- /.widget__item -->
 
@@ -227,24 +227,24 @@ layout: layout/base.njk
 				</h2>
 
 				<h5>22:15</h5>
-				<span>{{ start }}</span>
+				<span>{{ nextgame.data.start }}</span>
 			</div><!-- /.widget__content -->
 
 			<div class="widget__item widget__item--primary">
 				<h2>
-					<img src="{{ heimteamlogo | url }}" alt="">
+					<img src="{{ nextgame.data.heimteamlogo | url }}" alt="">
 
 					<span>gast</span>
 				</h2>
 
 				<h4>
-					<span>{{ gastteamname }}</span>
+					<span>{{ nextgame.data.gastteamname }}</span>
 				</h4>
 			</div><!-- /.widget__item -->
 		</div><!-- /.widget-score -->
 
 		<div class="section__actions">
-			<a href="{{ mapslink }}" class="btn btn--border">
+			<a href="{{ nextgame.data.mapslink }}" class="btn btn--border">
 				<span>
 					Google Maps Route
 
