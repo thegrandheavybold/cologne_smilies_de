@@ -5,7 +5,8 @@ module.exports = function(eleventyConfig) {
   //11ty PassthroughCopy
   eleventyConfig.addPassthroughCopy("./src/assets");
 
-
+  //Netlify CMS Admin Folder
+  eleventyConfig.ignores.add("./src/admin");
 
   // date filter (localized)
   eleventyConfig.addNunjucksFilter("date", function (date, format, locale) {
