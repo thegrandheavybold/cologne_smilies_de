@@ -24,9 +24,9 @@ collections:
       - {label: "Filter", name: "filter", widget: "select", options: ["goalie", "forward", "defense"]}
       - {label: "Portrait", name: "portrait", widget: "image"}
       - {label: "Position", name: "position", widget: "select", options: ["G", "F", "D"]}
+      - {label: "Spielernummer", name: "spielernummer", widget: "string"}
       - {label: "Vorname", name: "vorname", widget: "string"}
       - {label: "Nachname", name: "nachname", widget: "string"}
-      - {label: "Spielernummer", name: "spielernummer", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
 
 
