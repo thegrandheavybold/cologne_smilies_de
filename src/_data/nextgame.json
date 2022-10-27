@@ -1,7 +1,9 @@
 {
   "heimteamlogo": "/assets/images/uploads/maddogs.png",
   "heimteamname": "Mad Dogs Cologne",
-  "start": "October 27, 2022 12:00 AM",
+  "day": "06",
+  "month": "Nov",
+  "time": "19:45",
   "gastteamlogo": "/assets/images/uploads/smilies.png",
   "gastteamname": "Cologne Smilies",
   "mapslink": "https://goo.gl/maps/wWhF9rcxGht7rz2Z7"

@@ -28,7 +28,7 @@ collections:
           - {label: "Heim Team Name", name: "heimteamname", widget: "string"}
           - {label: "Gast Team Logo", name: "gastteamlogo", widget: "image"}
           - {label: "Gast Team Name", name: "gastteamname", widget: "string"}
-
-          - {label: "Start time", name: "start", widget: "datetime", date_format: "MMM Do", time_format: "LT", picker_utc: false}
-
+          - {label: "Tag", name: "day", widget: "date", date_locale: "de", date_format: "Do", picker_utc: false}
+          - {label: "Monat", name: "month", widget: "date", date_locale: "de", date_format: "MMM", picker_utc: false}
+          - {label: "Zeit", name: "time", widget: "time", date_locale: "de", time_format: "LT", picker_utc: false}
           - {label: "Maps Link", name: "mapslink", widget: "string"}

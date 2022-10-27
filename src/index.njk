@@ -221,12 +221,12 @@ layout: layout/base.njk
 
 			<div class="widget__content">
 				<h2>
-					15
+					{{ nextgame.day }}
 
-					<span>Mai</span>
+					<span>{{ nextgame.month }}</span>
 				</h2>
 
-				<h5>{{ nextgame.start.date_format }}</h5>
+				<h5>{{ nextgame.time }}</h5>
 			</div><!-- /.widget__content -->
 
 			<div class="widget__item widget__item--primary">
