@@ -179,6 +179,7 @@ $(document).on('click touchstart', function (e) {
 
 /***/ }),
 
+
 /***/ "../src/assets/js/modules/instagram-js.js":
 /*!************************************************!*\
   !*** ../src/assets/js/modules/instagram-js.js ***!
