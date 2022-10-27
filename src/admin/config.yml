@@ -12,8 +12,8 @@ public_folder: "/assets/images/uploads"
 logo_url: "/assets/images/logo.png"
 
 collections:
-  - name: "team"
-    label: "Team"
+  - name: "player"
+    label: "Player"
     folder: "src/team"
     slug: "{{slug}}"
     create: true
