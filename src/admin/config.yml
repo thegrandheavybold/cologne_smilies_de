@@ -29,6 +29,6 @@ collections:
           - {label: "Gast Team Logo", name: "gastteamlogo", widget: "image"}
           - {label: "Gast Team Name", name: "gastteamname", widget: "string"}
 
-          - {label: "Start time", name: "start", widget: "datetime", date_format: "DD.MMMM", time_format: "HH:mm", format: "LLL", picker_utc: false}
+          - {label: "Start time", name: "start", widget: "datetime", date_format: "MMM Do", time_format: "LT", picker_utc: false}
 
           - {label: "Maps Link", name: "mapslink", widget: "string"}

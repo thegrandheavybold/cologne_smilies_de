@@ -209,7 +209,7 @@ layout: layout/base.njk
 		<div class="widget-score">
 			<div class="widget__item">
 				<h2>
-					<img src="nextgame.heimteamlogo}" alt="">
+					<img src="{{ nextgame.heimteamlogo }}" alt="">
 
 					<span>Heim</span>
 				</h2>
@@ -226,8 +226,7 @@ layout: layout/base.njk
 					<span>Mai</span>
 				</h2>
 
-				<h5>22:15</h5>
-				<span>{{ nextgame.start }}</span>
+				<h5>{{ nextgame.start.date_format }}</h5>
 			</div><!-- /.widget__content -->
 
 			<div class="widget__item widget__item--primary">
