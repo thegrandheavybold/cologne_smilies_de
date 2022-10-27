@@ -1,19 +1,31 @@
-<div class="article-container {{ filter }}">
-  <div class="article">
-    <span class="article__link js-popup" data-slide="{{ spielernummer }}">
-      <div class="article__image" style="background-image: url({{ portrait }});"></div><!-- /.article__image -->
+---
+title: Player
+layout: layout/base.njk
+---
+<div class="section">
+  <div class="shell">
 
-      <div class="article__body">
-        <h2>{{ position }}</h2>
 
-        <h4>
-          <span>{{ vorname }}</span>
+    <div class="article-container {{ filter }}">
+      <div class="article">
+        <span class="article__link js-popup" data-slide="{{ spielernummer }}">
+          <div class="article__image" style="background-image: url({{ portrait }});"></div><!-- /.article__image -->
 
-          {{ nachname }}
-        </h4>
+          <div class="article__body">
+            <h2>{{ position }}</h2>
 
-        <h3>#{{ spielernummer }}</h3>
-      </div><!-- /.article__body -->
-    </span>
-  </div><!-- /.article -->
-</div><!-- /.article-container -->
+            <h4>
+              <span>{{ vorname }}</span>
+
+              {{ nachname }}
+            </h4>
+
+            <h3>#{{ spielernummer }}</h3>
+          </div><!-- /.article__body -->
+        </span>
+      </div><!-- /.article -->
+    </div><!-- /.article-container -->
+
+
+  </div><!-- .shell -->
+</div><!-- .section -->

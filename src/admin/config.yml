@@ -14,14 +14,13 @@ logo_url: "/assets/images/logo.png"
 collections:
   - name: "player"
     label: "Player"
-    folder: "src/team"
+    folder: "src/player"
     slug: "{{slug}}"
     create: true
     media_library:
       config:
         multiple: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layout/player.njk"}
       - {label: "Filter", name: "filter", widget: "select", options: ["goalie", "forward", "defense"]}
       - {label: "Portrait", name: "portrait", widget: "image"}
       - {label: "Position", name: "position", widget: "select", options: ["G", "F", "D"]}
