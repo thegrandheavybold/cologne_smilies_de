@@ -100,8 +100,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_click_handlers__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_click_handlers__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _modules_sliders__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/sliders */ "../src/assets/js/modules/sliders.js");
 /* harmony import */ var _modules_sliders__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_modules_sliders__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _modules_instagram_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/instagram-js */ "../src/assets/js/modules/instagram-js.js");
-/* harmony import */ var _modules_instagram_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_modules_instagram_js__WEBPACK_IMPORTED_MODULE_3__);
+
 /* harmony import */ var _modules_isotote__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/isotote */ "../src/assets/js/modules/isotote.js");
 /* harmony import */ var _modules_isotote__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_modules_isotote__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _modules_tabs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/tabs */ "../src/assets/js/modules/tabs.js");
@@ -180,55 +179,6 @@ $(document).on('click touchstart', function (e) {
 /***/ }),
 
 
-/***/ "../src/assets/js/modules/instagram-js.js":
-/*!************************************************!*\
-  !*** ../src/assets/js/modules/instagram-js.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function($) {var $win = $(window);
-var timeout;
-
-var initSliderMobile = function initSliderMobile() {
-  if ($win.width() < 768 && !$('.instagram-feed .instagram_gallery').hasClass('slick-initialized')) {
-    $('.instagram-feed .instagram_gallery').slick({
-      dots: true
-    });
-  } else {
-    if ($win.width() > 767 && $('.instagram-feed .instagram_gallery').hasClass('slick-initialized')) {
-      $('.instagram-feed .instagram_gallery').slick('unslick');
-    }
-  }
-
-  clearTimeout(timeout);
-};
-
-$(window).on('load', function () {
-  new InstagramFeed({
-    'tag': 'colognesmilies',
-    'container': document.getElementById("instagram-feed"),
-    'display_profile': false,
-    'display_biography': false,
-    'styling': false,
-    'items': 3,
-    'items_per_row': 3,
-    'lazy_load': true,
-    'callback': function callback() {
-      $win.on('load resize', function () {
-        initSliderMobile();
-      });
-    }
-  });
-});
-$win.on('load', function () {
-  timeout = setTimeout(function () {
-    initSliderMobile();
-  }, 1000);
-});
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "jquery")))
-
-/***/ }),
 
 /***/ "../src/assets/js/modules/isotote.js":
 /*!*******************************************!*\

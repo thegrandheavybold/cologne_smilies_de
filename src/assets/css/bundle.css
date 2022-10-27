@@ -588,7 +588,7 @@ blockquote:last-child {
     -o-transition: opacity .4s;
     transition: opacity .4s;
     display: block;
-    text-decoration: none; }
+    text-decoration: none;}
 .article .article__link:hover {
       opacity: .7; }
 @media (max-width: 767px), screen and (max-width: 812px) and (orientation: landscape) {
