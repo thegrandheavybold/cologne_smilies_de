@@ -21,13 +21,22 @@ collections:
       config:
         multiple: true
     fields:
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Filter", name: "filter", widget: "select", options: ["goalie", "forward", "defense"]}
       - {label: "Portrait", name: "portrait", widget: "image"}
       - {label: "Position", name: "position", widget: "select", options: ["G", "F", "D"]}
       - {label: "Spielernummer", name: "spielernummer", widget: "string"}
       - {label: "Vorname", name: "vorname", widget: "string"}
       - {label: "Nachname", name: "nachname", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Geboren", name: "geboren", widget: "string"}
+      - {label: "Schusshand", name: "schusshand", widget: "select", options: ["Links", "Rechts"]}
+      - {label: "Größe", name: "groesse", widget: "string"}
+      - {label: "Gewicht", name: "gewicht", widget: "string"}
+      - {label: "Tore", name: "tore", widget: "string"}
+      - {label: "Vorlagen", name: "vorlagen", widget: "string"}
+      - {label: "Punkte", name: "punkte", widget: "string"}
+      - {label: "Strafminuten", name: "strafminuten", widget: "string"}
+
 
 
   - name: "home"
