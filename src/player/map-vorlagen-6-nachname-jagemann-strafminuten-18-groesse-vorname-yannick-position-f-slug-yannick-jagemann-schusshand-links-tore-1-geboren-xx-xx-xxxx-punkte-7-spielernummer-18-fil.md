@@ -6,7 +6,7 @@ position: F
 spielernummer: "18"
 vorname: Yannick
 nachname: Jagemann
-geboren: xx.xx.xxxx
+geboren: 27.08.1999
 schusshand: Links
 groesse: "?"
 gewicht: "?"
