@@ -6,7 +6,7 @@ position: F
 spielernummer: "12"
 vorname: Valentin
 nachname: Cremer
-geboren: xx.xx.xxxx
+geboren: 17.03.1995
 schusshand: Rechts
 groesse: "?"
 gewicht: "?"
