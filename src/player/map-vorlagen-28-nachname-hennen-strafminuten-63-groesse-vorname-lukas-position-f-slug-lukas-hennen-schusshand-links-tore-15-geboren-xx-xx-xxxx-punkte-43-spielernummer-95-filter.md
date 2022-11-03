@@ -6,7 +6,7 @@ position: F
 spielernummer: "95"
 vorname: Lukas
 nachname: Hennen
-geboren: xx.xx.xxxx
+geboren: 16.07.1995
 schusshand: Links
 groesse: "?"
 gewicht: "?"
