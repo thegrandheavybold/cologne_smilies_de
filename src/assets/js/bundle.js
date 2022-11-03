@@ -198,15 +198,21 @@ $('.js-filters').on('click', 'a', function (e) {
     filter: $this.attr('href')
   });
 });
+
 $('.js-btn-expand').on('click', function (e) {
   e.preventDefault();
   var $this = $(e.currentTarget);
   $this.closest('.section').addClass('hide-actions').find('.article-container.is-hidden').removeClass('is-hidden');
+
   $('.article-grid').isotope({
     itemSelector: '.article-grid .article-container',
     filter: $('.js-filters .is-active a').attr('href')
   });
+
 });
+
+
+
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "jquery")))
 
 /***/ }),

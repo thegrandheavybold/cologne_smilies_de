@@ -15,7 +15,7 @@ collections:
   - name: "player"
     label: "Player"
     folder: "src/player"
-    slug: "{{slug}}"
+    slug: "{{vorname}}-{{nachname}}"
     create: true
     media_library:
       config:
@@ -28,14 +28,14 @@ collections:
       - {label: "Spielernummer", name: "spielernummer", widget: "string"}
       - {label: "Vorname", name: "vorname", widget: "string"}
       - {label: "Nachname", name: "nachname", widget: "string"}
-      - {label: "Geboren", name: "geboren", widget: "string"}
-      - {label: "Schusshand", name: "schusshand", widget: "select", options: ["Links", "Rechts"]}
-      - {label: "Größe", name: "groesse", widget: "string"}
-      - {label: "Gewicht", name: "gewicht", widget: "string"}
-      - {label: "Tore", name: "tore", widget: "string"}
-      - {label: "Vorlagen", name: "vorlagen", widget: "string"}
-      - {label: "Punkte", name: "punkte", widget: "string"}
-      - {label: "Strafminuten", name: "strafminuten", widget: "string"}
+      - {label: "Geboren", name: "geboren", widget: "string", required: false}
+      - {label: "Schusshand", name: "schusshand", widget: "select", options: ["Links", "Rechts"], required: false}
+      - {label: "Größe", name: "groesse", widget: "string", required: false}
+      - {label: "Gewicht", name: "gewicht", widget: "string", required: false}
+      - {label: "Tore", name: "tore", widget: "string", required: false}
+      - {label: "Vorlagen", name: "vorlagen", widget: "string", required: false}
+      - {label: "Punkte", name: "punkte", widget: "string", required: false}
+      - {label: "Strafminuten", name: "strafminuten", widget: "string", required: false}
 
 
 

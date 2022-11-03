@@ -2019,10 +2019,7 @@ blockquote:last-child {
     background: #181D27; }
 .table tr:nth-child(even) td {
     background: #11151D; }
-.table--alt tr:nth-child(5) td {
-    background: #343843 !important;
-    text-shadow: 0 0 2px #fff;
-    color: #fff; }
+
 @media (max-width: 767px), screen and (max-width: 812px) and (orientation: landscape) {
   .table {
     font-size: 16px; }
