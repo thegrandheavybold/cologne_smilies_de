@@ -8,6 +8,7 @@ media_folder: "src/assets/images/uploads"
 
 public_folder: "/assets/images/uploads"
 
+publish_mode: editorial_workflow
 
 logo_url: "/assets/images/logo.png"
 
