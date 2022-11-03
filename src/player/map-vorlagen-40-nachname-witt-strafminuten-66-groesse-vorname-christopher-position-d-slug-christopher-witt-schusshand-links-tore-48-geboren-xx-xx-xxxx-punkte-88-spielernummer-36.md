@@ -6,7 +6,7 @@ position: D
 spielernummer: "36"
 vorname: Christopher
 nachname: Witt
-geboren: xx.xx.xxxx
+geboren: 18.07.1981
 schusshand: Links
 groesse: "?"
 gewicht: "?"
