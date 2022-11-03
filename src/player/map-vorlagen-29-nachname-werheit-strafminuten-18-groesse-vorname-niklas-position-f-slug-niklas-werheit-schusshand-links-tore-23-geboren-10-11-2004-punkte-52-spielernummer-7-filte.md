@@ -6,7 +6,7 @@ position: F
 spielernummer: "7"
 vorname: Niklas
 nachname: Werheit
-geboren: 10.11.2004
+geboren: 10.11.1996
 schusshand: Links
 groesse: "?"
 gewicht: "?"
