@@ -6,7 +6,7 @@ position: F
 spielernummer: "23"
 vorname: Sven
 nachname: Jensen
-geboren: xx.xx.xxxx
+geboren: 22.03.1996
 schusshand: Links
 groesse: "?"
 gewicht: "?"
