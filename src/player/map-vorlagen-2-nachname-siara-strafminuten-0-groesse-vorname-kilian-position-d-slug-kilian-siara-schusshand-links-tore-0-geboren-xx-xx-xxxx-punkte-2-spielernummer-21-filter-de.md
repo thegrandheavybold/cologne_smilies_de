@@ -6,7 +6,7 @@ position: D
 spielernummer: "21"
 vorname: Kilian
 nachname: Siara
-geboren: xx.xx.xxxx
+geboren: 20.06.1992
 schusshand: Links
 groesse: "?"
 gewicht: "?"
