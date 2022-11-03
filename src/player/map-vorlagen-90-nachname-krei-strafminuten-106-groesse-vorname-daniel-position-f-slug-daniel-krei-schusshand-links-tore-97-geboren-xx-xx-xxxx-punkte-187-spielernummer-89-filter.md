@@ -6,7 +6,7 @@ position: F
 spielernummer: "89"
 vorname: Daniel
 nachname: Krei
-geboren: xx.xx.xxxx
+geboren: 12.10.1987
 schusshand: Links
 groesse: "?"
 gewicht: "?"
