@@ -6,7 +6,7 @@ position: D
 spielernummer: "27"
 vorname: Andreas
 nachname: Schnepf
-geboren: xx.xx.xxxx
+geboren: 06.12.1985
 schusshand: Links
 groesse: "?"
 gewicht: "?"
