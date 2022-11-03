@@ -6,7 +6,7 @@ position: F
 spielernummer: "8"
 vorname: Leon
 nachname: Papke
-geboren: xx.xx.xxxx
+geboren: 29.09.1998
 schusshand: Links
 groesse: "?"
 gewicht: "?"
