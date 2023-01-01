@@ -1,10 +1,10 @@
 {
-  "heimteamlogo": "/assets/images/uploads/tigers-koeln.png",
-  "heimteamname": "EHC Tiger Köln",
-  "day": "04",
-  "month": "Dez",
-  "time": "21:30",
+  "heimteamlogo": "/assets/images/uploads/tigers-solingen.png",
+  "heimteamname": "Solinger Ice Tigers",
+  "day": "12",
+  "month": "Jan",
+  "time": "21:15",
   "gastteamlogo": "/assets/images/uploads/smilies.png",
   "gastteamname": "Cologne Smilies",
-  "mapslink": "https://goo.gl/maps/wWhF9rcxGht7rz2Z7"
+  "mapslink": "https://www.google.de/maps/place/Eissporthalle+Solingen+gGmbH,+Br%C3%BChler+Str.+20,+42657+Solingen/@51.1658627,7.0866994,17z/data=!4m6!3m5!1s0x47b8d4f187791c6d:0x28a9e1bca9afefa3!8m2!3d51.1658627!4d7.0866994!16s%2Fg%2F1tnbk6s3"
 }
