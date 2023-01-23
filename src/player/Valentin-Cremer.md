@@ -1,7 +1,7 @@
 ---
 slug: Valentin Cremer
 filter: forward
-portrait: /assets/images/uploads/my-project-1.png
+portrait: /assets/images/uploads/my-project-1.jpg
 position: F
 spielernummer: "12"
 vorname: Valentin
