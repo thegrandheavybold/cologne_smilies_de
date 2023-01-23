@@ -8,10 +8,10 @@ vorname: Valentin
 nachname: Cremer
 geboren: 17.03.1995
 schusshand: Rechts
-groesse: "?"
-gewicht: "?"
-tore: "5"
-vorlagen: "4"
-punkte: "9"
-strafminuten: "42"
+groesse: ""
+gewicht: ""
+tore: ""
+vorlagen: ""
+punkte: ""
+strafminuten: ""
 ---
