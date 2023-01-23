@@ -8,10 +8,10 @@ vorname: Daniel
 nachname: Rechtsteiner
 geboren: 06.01.1981
 schusshand: Rechts
-groesse: "?"
-gewicht: "?"
-tore: "15"
-vorlagen: "20"
-punkte: "35"
-strafminuten: "93"
+groesse: ""
+gewicht: ""
+tore: ""
+vorlagen: ""
+punkte: ""
+strafminuten: ""
 ---
