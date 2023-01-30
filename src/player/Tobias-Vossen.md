@@ -1,17 +1,17 @@
 ---
 slug: Tobias Vossen
 filter: forward
-portrait: /assets/images/uploads/kein-foto-vorhanden-970828844.jpg
+portrait: /assets/images/uploads/tobi-vossen.jpg
 position: F
 spielernummer: "93"
 vorname: Tobias
 nachname: Vossen
 geboren: 16.08.1993
 schusshand: Links
-groesse: "?"
-gewicht: "?"
-tore: "20"
-vorlagen: "23"
-punkte: "43"
-strafminuten: "51"
+groesse: ""
+gewicht: ""
+tore: ""
+vorlagen: ""
+punkte: ""
+strafminuten: ""
 ---
