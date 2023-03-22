@@ -1,7 +1,7 @@
 ---
 slug: Andreas Schnepf
 filter: defense
-portrait: /assets/images/uploads/my-project-1-1-.jpg
+portrait: /assets/images/uploads/schnepf-min.jpg
 position: D
 spielernummer: "27"
 vorname: Andreas
