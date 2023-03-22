@@ -1,7 +1,7 @@
 ---
 slug: Daniel Rechsteiner
 filter: defense
-portrait: /assets/images/uploads/rechi.jpg
+portrait: /assets/images/uploads/rechi-min.jpg
 position: D
 spielernummer: "90"
 vorname: Daniel
