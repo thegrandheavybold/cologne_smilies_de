@@ -1,7 +1,7 @@
 ---
 slug: Niklas Witt
 filter: goalie
-portrait: /assets/images/uploads/witti.jpg
+portrait: /assets/images/uploads/witti-min.jpg
 position: G
 spielernummer: "1"
 vorname: Niklas
