@@ -1,7 +1,7 @@
 ---
 slug: Christopher Vossen
 filter: forward
-portrait: /assets/images/uploads/vossi.jpg
+portrait: /assets/images/uploads/vossi-min.jpg
 position: F
 spielernummer: "84"
 vorname: Christopher
