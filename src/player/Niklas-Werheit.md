@@ -1,7 +1,7 @@
 ---
 slug: Niklas Werheit
 filter: forward
-portrait: /assets/images/uploads/niklas.jpg
+portrait: /assets/images/uploads/niklas-min.jpg
 position: F
 spielernummer: "7"
 vorname: Niklas
