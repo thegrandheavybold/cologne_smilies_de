@@ -1,7 +1,7 @@
 ---
 slug: Daniel Krei
 filter: forward
-portrait: /assets/images/uploads/krei.jpg
+portrait: /assets/images/uploads/krei-min.jpg
 position: F
 spielernummer: "89"
 vorname: Daniel
