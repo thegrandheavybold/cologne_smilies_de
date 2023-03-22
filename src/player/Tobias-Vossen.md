@@ -1,7 +1,7 @@
 ---
 slug: Tobias Vossen
 filter: forward
-portrait: /assets/images/uploads/tobi-vossen.jpg
+portrait: /assets/images/uploads/tobi-vossen-min.jpg
 position: F
 spielernummer: "93"
 vorname: Tobias
