@@ -1,7 +1,7 @@
 ---
 slug: David Eicler
 filter: goalie
-portrait: /assets/images/uploads/sire.jpg
+portrait: /assets/images/uploads/sire-min.jpg
 position: G
 spielernummer: "83"
 vorname: David
