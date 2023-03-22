@@ -1,7 +1,7 @@
 ---
 slug: Christian Esser
 filter: forward
-portrait: /assets/images/uploads/esser.jpg
+portrait: /assets/images/uploads/esser-min.jpg
 position: F
 spielernummer: "10"
 vorname: Christian
