@@ -1,10 +1,10 @@
 {
-  "heimteamlogo": "/assets/images/uploads/tigers-koeln.png",
-  "heimteamname": "TIGER",
-  "day": "23",
-  "month": "APR",
-  "time": "12:45",
-  "gastteamlogo": "/assets/images/uploads/smilies.png",
-  "gastteamname": "SMILIES",
+  "heimteamlogo": "/assets/images/uploads/smilies.png",
+  "heimteamname": "SMILIES",
+  "day": "XX",
+  "month": "XXX",
+  "time": "XX:XX",
+  "gastteamlogo": "/assets/images/uploads/img_8605.jpeg",
+  "gastteamname": "T B A",
   "mapslink": "https://g.co/kgs/ZbPXVg"
 }
