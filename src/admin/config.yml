@@ -1,0 +1,62 @@
+backend:
+  name: git-gateway
+  branch: main
+
+site_url: https://cologne-smilies.de
+
+media_folder: "src/assets/images/uploads"
+
+public_folder: "/assets/images/uploads"
+
+publish_mode: editorial_workflow
+
+logo_url: "/assets/images/logo.png"
+
+collections:
+  - name: "player"
+    label: "Player"
+    folder: "src/player"
+    slug: "{{vorname}}-{{nachname}}"
+    create: true
+    media_library:
+      config:
+        multiple: true
+    fields:
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Filter", name: "filter", widget: "select", options: ["goalie", "forward", "defense"]}
+      - {label: "Portrait", name: "portrait", widget: "image"}
+      - {label: "Position", name: "position", widget: "select", options: ["G", "F", "D"]}
+      - {label: "Spielernummer", name: "spielernummer", widget: "string"}
+      - {label: "Vorname", name: "vorname", widget: "string"}
+      - {label: "Nachname", name: "nachname", widget: "string"}
+      - {label: "Geboren", name: "geboren", widget: "string", required: false}
+      - {label: "Schusshand", name: "schusshand", widget: "select", options: ["Links", "Rechts"], required: false}
+      - {label: "Größe", name: "groesse", widget: "string", required: false}
+      - {label: "Gewicht", name: "gewicht", widget: "string", required: false}
+      - {label: "Tore", name: "tore", widget: "string", required: false}
+      - {label: "Vorlagen", name: "vorlagen", widget: "string", required: false}
+      - {label: "Punkte", name: "punkte", widget: "string", required: false}
+      - {label: "Strafminuten", name: "strafminuten", widget: "string", required: false}
+
+
+
+  - name: "home"
+    label: "Home"
+    delete: false
+    media_library:
+      config:
+        multiple: true
+    files:
+      - label: "Next Game"
+        name: "nextgame"
+        file: "src/_data/nextgame.json"
+        fields:
+          - {label: "Base", name: "base", widget: "hidden", default: "layout/base.njk"}
+          - {label: "Heim Team Logo", name: "heimteamlogo", widget: "image"}
+          - {label: "Heim Team Name", name: "heimteamname", widget: "string"}
+          - {label: "Gast Team Logo", name: "gastteamlogo", widget: "image"}
+          - {label: "Gast Team Name", name: "gastteamname", widget: "string"}
+          - {label: "Tag", name: "day", widget: "string"}
+          - {label: "Monat", name: "month", widget: "string"}
+          - {label: "Zeit", name: "time", widget: "string"}
+          - {label: "Maps Link", name: "mapslink", widget: "string"}

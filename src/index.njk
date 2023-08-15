@@ -1,0 +1,335 @@
+---
+title: Home
+layout: layout/base.njk
+---
+<div class="hero">
+	<div class="hero__bg" style="background-image: url(assets/images/temp/hero.jpg);"></div><!-- /.hero__bg -->
+
+	<div class="hero__bg" style="background-image: url(assets/images/temp/hero-mobile.jpg);"></div><!-- /.hero__bg -->
+
+	<div class="hero__inner">
+		<div class="shell">
+			<a href="#training" class="btn js-scroll">
+				<span>
+					Anmeldung für Gäste
+
+					<i class="ico-arrow"></i>
+				</span>
+			</a>
+		</div><!-- /.shell -->
+	</div><!-- /.hero__inner -->
+</div><!-- /.hero -->
+
+<section class="section">
+	<div class="shell">
+		<ul class="list-features">
+			<li>
+				<a href="#news" class="js-scroll">
+					<i class="ico-fire"></i>
+
+					News
+				</a>
+			</li>
+
+			<li>
+				<a href="#saison" class="js-scroll">
+					<i class="ico-trophy"></i>
+
+					Saison
+				</a>
+			</li>
+
+			<li>
+				<a href="#team" class="js-scroll">
+					<i class="ico-team"></i>
+
+					Team
+				</a>
+			</li>
+
+			<li>
+				<a href="#training" class="js-scroll">
+					<i class="ico-training"></i>
+
+					Training
+				</a>
+			</li>
+		</ul><!-- /.list-features -->
+
+		<header class="section__head">
+			<h3>Willkommen bei den Smilies</h3>
+
+			<h1>RHL Meister 2021</h1>
+
+			<ul class="list-dates">
+			<li>
+					<span>2019</span>
+				</li>
+				<li>
+					<span>2017</span>
+				</li>
+
+				<li>
+					<span>2014</span>
+				</li>
+
+				<li>
+					<span>2013</span>
+				</li>
+
+				<li>
+					<span>2012</span>
+				</li>
+
+				<li>
+					<span>2011</span>
+				</li>
+
+				<li>
+					<span>2010</span>
+				</li>
+
+				<li>
+					<span>2009</span>
+				</li>
+			</ul><!-- /.list-dates -->
+
+			<p>
+				Ambitioniertes Hobby-Eishockey in der Rheinischen Hockey Liga.
+			</p>
+		</header><!-- /.section__head -->
+	</div><!-- /.shell -->
+</section><!-- /.section -->
+
+<section class="section section--primary" id="news">
+	<div class="shell">
+		<header class="section__head">
+			<h1 class="title" data-text="News">
+				<span>News</span>
+			</h1><!-- /.title -->
+
+			<h3 class="subtitle">
+				<a href="https://www.instagram.com/cologne_smilies/" target="_blank" rel="noopener">
+					<i class="ico-insta"></i> <span>@cologne_smilies</span>
+				</a>
+			</h3><!-- /.subtitle -->
+		</header><!-- /.section__head -->
+
+<!--
+		<div class="section__body">
+			<div class="instagram-feed" id="instagram-feed"></div>
+		</div> /.section__body -->
+
+		<div class="section__actions">
+			<a href="https://www.instagram.com/cologne_smilies/" target="_blank" rel="noopener" class="btn btn--border">
+				<span>
+					Smilies Fan werden
+
+					<i class="ico-arrow"></i>
+				</span>
+			</a>
+		</div><!-- /.section__actions -->
+	</div><!-- /.shell -->
+</section><!-- /.section -->
+
+<section class="section section--secondary" id="saison">
+	<img src="assets/images/temp/img1.png" alt="" class="section__image">
+
+	<div class="shell">
+		<header class="section__head">
+			<h1 class="title" data-text="Saison">
+				<span>Saison</span>
+			</h1><!-- /.title -->
+
+			<h3 class="subtitle">
+				<span>Tabelle</span>
+			</h3><!-- /.subtitle -->
+		</header><!-- /.section__head -->
+
+		<div class="section__body">
+			<div class="tabs js-tabs">
+				<div class="tabs__head">
+					<nav class="tabs__nav">
+						<ul>
+							<li class="is-active">
+								<a href="#tab1">
+									<span>1. Division</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="#tab2">
+									<span>2. Division</span>
+								</a>
+							</li>
+						</ul>
+					</nav><!-- /.tabs__nav -->
+				</div><!-- /.tabs__head -->
+
+				<div class="tabs__body">
+					<div class="tab is-active" id="tab1">
+						<script type="text/javascript" src="https://www.rheinland-hockey.de/ajax/widget/standings/2"></script>
+
+						<div class="table table--alt js-table" data-title-first="Team" data-title-second="PKT">
+							<script type="text/javascript">
+								table.print({
+									position :false,
+									games    :false,
+									won      :false,
+									lost     :false,
+									goals    :false
+								});
+							</script>
+						</div><!-- /.table -->
+					</div><!-- /.tab -->
+
+					<div class="tab" id="tab2">
+						<script type="text/javascript" src="https://www.rheinland-hockey.de/ajax/widget/standings/3"></script>
+
+						<div class="table js-table" data-title-first="Team" data-title-second="PKT">
+							<script type="text/javascript">
+								table.print({
+									position :false,
+									games    :false,
+									won      :false,
+									lost     :false,
+									goals    :false
+								});
+							</script>
+						</div><!-- /.table -->
+					</div><!-- /.tab -->
+				</div><!-- /.tabs__body -->
+			</div><!-- /.tabs js-tabs -->
+		</div><!-- /.section__body -->
+
+		<h3 class="subtitle">
+			<span>Nächstes Match</span>
+		</h3><!-- /.subtitle -->
+
+		<div class="widget-score">
+			<div class="widget__item">
+				<h2>
+					<img src="{{ nextgame.heimteamlogo }}" alt="">
+
+					<span>Heim</span>
+				</h2>
+
+				<h4>
+					<span>{{ nextgame.heimteamname }}</span>
+				</h4>
+			</div><!-- /.widget__item -->
+
+			<div class="widget__content">
+				<h2>
+					{{ nextgame.day }}
+
+					<span>{{ nextgame.month }}</span>
+				</h2>
+
+				<h5>{{ nextgame.time }}</h5>
+			</div><!-- /.widget__content -->
+
+			<div class="widget__item widget__item--primary">
+				<h2>
+					<img src="{{ nextgame.gastteamlogo }}" alt="">
+
+					<span>gast</span>
+				</h2>
+
+				<h4>
+					<span>{{ nextgame.gastteamname }}</span>
+				</h4>
+			</div><!-- /.widget__item -->
+		</div><!-- /.widget-score -->
+
+		<div class="section__actions">
+			<a href="{{ nextgame.mapslink }}" class="btn btn--border" target="_blank" rel="nofollow noopener">
+				<span>
+					Google Maps Route
+
+					<i class="ico-arrow"></i>
+				</span>
+			</a>
+		</div><!-- /.section__actions -->
+	</div><!-- /.shell -->
+</section><!-- /.section -->
+
+{%- include "partials/team_teaser.njk"-%}
+
+<section class="section section--alt" id="training">
+	<div class="shell">
+		<header class="section__head">
+			<h1 class="title title--alt" data-text="Training">
+				<span>Training</span>
+			</h1><!-- /.title -->
+
+			<h3 class="subtitle">Gäste Willkommen!</h3><!-- /.subtitle -->
+
+			<p>
+				Du möchtest an einem unserer Trainings teilnehmen? Dann melde dich jetzt für ein<br>
+				unverbindliches Probetraining an! Wir freuen uns, dich kennen zu lernen.
+			</p>
+		</header><!-- /.section__head -->
+
+		<div class="section__body">
+			<div class="widget-data">
+				<h3 class="widget__title">
+					<span>Immer Montags</span>
+				</h3><!-- /.widget__title -->
+
+				<ul class="widget__items">
+					<li class="widget__item">
+						<i class="ico-clock"></i>
+
+						<p>
+							22:15 <span class="hidden-mobile">Uhr</span><br>
+							-<br>
+							23:45 Uhr
+						</p>
+					</li><!-- /.widget__item -->
+
+					<li class="widget__item">
+						<i class="ico-pin"></i>
+
+						<p>
+							K2 - Haie Zentrum<br>
+							Gummersbacher Str. 4<br>
+							50679 Köln
+						</p>
+					</li><!-- /.widget__item -->
+
+					<li class="widget__item">
+						<i class="ico-euro"></i>
+
+						<p>
+							Gastbeitrag:
+						</p>
+
+						<p>
+							15 €
+						</p>
+					</li><!-- /.widget__item -->
+				</ul><!-- /.widget__items -->
+
+				<div class="widget__actions">
+					<a href="mailto:info@cologne-smilies.de" class="btn btn--red">
+						<span>
+							Anmeldung für Gäste
+
+							<i class="ico-arrow"></i>
+						</span>
+					</a>
+				</div><!-- /.widget__actions -->
+			</div><!-- /.widget-data -->
+		</div><!-- /.section__body -->
+
+		<div class="section__actions" id="kontakt">
+			<h3>Noch Fragen?</h3>
+
+			<a href="mailto:info@cologne-smilies.de" class="section__link">info@cologne-smilies.de</a>
+		</div><!-- /.section__actions -->
+	</div><!-- /.shell -->
+</section><!-- /.section -->
+
+
+{%- include "partials/popup-team.njk" -%}
