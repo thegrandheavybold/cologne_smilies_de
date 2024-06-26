@@ -1,0 +1,106 @@
+<div class="popup" id="popup-team">
+	<div class="popup__inner">
+		<a href="#popup-team" class="popup__btn js-popup">
+			<i class="ico-x"></i>
+		</a>
+
+		<div class="slider js-slider">
+			{%- for player in collections.players -%}
+			<div class="slider__clip">
+				<div class="slider__slides">
+
+					<div class="slider__slide">
+						<div class="article-big">
+							<div class="grid">
+
+								<div class="grid__col grid__col--1of2">
+									<div class="article" data-slide="{{ player.data.spielernummer }}">
+										<div class="article__image" style="background-image: url({{ player.data.portrait }});"></div><!-- /.article__image -->
+
+										<div class="article__body">
+											<h2>{{position}}</h2>
+
+											<h4>
+												<span>{{vorname}}</span>
+
+												{{nachname}}
+											</h4>
+
+											<h3>#{{spielernummer}}</h3>
+										</div><!-- /.article__body -->
+									</div><!-- /.article -->
+								</div><!-- /.grid__col -->
+
+								<div class="grid__col grid__col--1of2">
+									<div class="article__content">
+										<ul class="list-data">
+											<li>
+												<h6>Spielerinfo</h6>
+											</li>
+
+											<li>
+												<span>Geboren</span>
+
+												<span>{{geboren}}</span>
+											</li>
+
+											<li>
+												<span>Schusshand</span>
+
+												<span>{{schusshand}}</span>
+											</li>
+
+											<li>
+												<span>Größe</span>
+
+												<span>{{groesse}}</span>
+											</li>
+
+											<li>
+												<span>Gewicht</span>
+
+												<span>{{gewicht}}</span>
+											</li>
+										</ul><!-- /.list-data -->
+
+										<ul class="list-data">
+											<li>
+												<h6>Statistik gesamt</h6>
+											</li>
+
+											<li>
+												<span>Tore gesamt</span>
+
+												<span>{{tore}}</span>
+											</li>
+
+											<li>
+												<span>Vorlagen gesamt</span>
+
+												<span>{{vorlagen}}</span>
+											</li>
+
+											<li>
+												<span>Punkte gesamt</span>
+
+												<span>{{punkte}}</span>
+											</li>
+
+											<li>
+												<span>Strafminuten gesamt</span>
+
+												<span>{{strafminuten}}</span>
+											</li>
+										</ul><!-- /.list-data -->
+									</div><!-- /.article__content -->
+								</div><!-- /.grid__col -->
+							</div><!-- /.grid -->
+						</div><!-- /.article-big -->
+					</div><!-- /.slider__slide -->
+
+				</div><!-- /.slider__slides -->
+			</div><!-- /.slider__clip -->
+			{%- endfor -%}
+		</div><!-- /.slider js-slider -->
+	</div><!-- /.popup__inner -->
+</div><!-- /.popup -->
