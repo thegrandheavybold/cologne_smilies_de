@@ -1,7 +1,7 @@
 ---
 slug: Sven Jensen
-filter: forward
-portrait: /assets/images/uploads/kein-foto-vorhanden-970828844.jpg
+filter: defense
+portrait: /assets/images/uploads/smilies.png
 position: F
 spielernummer: "23"
 vorname: Sven
