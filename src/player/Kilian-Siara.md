@@ -1,7 +1,7 @@
 ---
 slug: Kilian Siara
 filter: defense
-portrait: /assets/images/uploads/kein-foto-vorhanden-970828844.jpg
+portrait: /assets/images/uploads/smilies.png
 position: D
 spielernummer: "21"
 vorname: Kilian
