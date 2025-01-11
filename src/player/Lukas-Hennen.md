@@ -1,7 +1,7 @@
 ---
 slug: Lukas Hennen
 filter: forward
-portrait: /assets/images/uploads/kein-foto-vorhanden-970828844.jpg
+portrait: /assets/images/uploads/img_2835.jpeg
 position: F
 spielernummer: "95"
 vorname: Lukas
