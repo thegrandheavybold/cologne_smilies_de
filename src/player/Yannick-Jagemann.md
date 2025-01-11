@@ -1,8 +1,8 @@
 ---
 slug: Yannick Jagemann
-filter: forward
-portrait: /assets/images/uploads/kein-foto-vorhanden-970828844.jpg
-position: F
+filter: defense
+portrait: /assets/images/uploads/smilies.png
+position: D
 spielernummer: "18"
 vorname: Yannick
 nachname: Jagemann
