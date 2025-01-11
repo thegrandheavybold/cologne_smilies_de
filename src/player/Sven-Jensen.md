@@ -2,7 +2,7 @@
 slug: Sven Jensen
 filter: defense
 portrait: /assets/images/uploads/smilies.png
-position: F
+position: D
 spielernummer: "23"
 vorname: Sven
 nachname: Jensen
