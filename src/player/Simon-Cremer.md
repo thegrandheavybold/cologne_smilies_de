@@ -1,7 +1,7 @@
 ---
 slug: Simon Cremer
 filter: forward
-portrait: /assets/images/uploads/simon-min.jpg
+portrait: /assets/images/uploads/img_2797.jpeg
 position: F
 spielernummer: "17"
 vorname: Simon
