@@ -1,7 +1,7 @@
 ---
 slug: Sebastian Schmidt
 filter: defense
-portrait: /assets/images/uploads/kein-foto-vorhanden-970828844.jpg
+portrait: /assets/images/uploads/img_2746.jpeg
 position: D
 spielernummer: "37"
 vorname: Sebastian
