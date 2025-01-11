@@ -1,8 +1,8 @@
 ---
 slug: Markus Schreuer
-filter: forward
+filter: defense
 portrait: /assets/images/uploads/img_2829.jpeg
-position: F
+position: D
 spielernummer: "77"
 vorname: Markus
 nachname: Schreuer
