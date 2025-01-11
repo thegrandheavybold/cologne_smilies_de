@@ -1,7 +1,7 @@
 ---
 slug: Leon Papke
 filter: forward
-portrait: /assets/images/uploads/kein-foto-vorhanden-970828844.jpg
+portrait: /assets/images/uploads/img_2775.jpeg
 position: F
 spielernummer: "8"
 vorname: Leon
