@@ -1,7 +1,7 @@
 ---
 slug: Finn Oevers
 filter: defense
-portrait: /assets/images/uploads/finn-min.jpg
+portrait: /assets/images/uploads/img_2843.jpeg
 position: D
 spielernummer: "20"
 vorname: Finn
