@@ -1,7 +1,7 @@
 ---
 slug: Robert Wilson
 filter: forward
-portrait: /assets/images/uploads/kein-foto-vorhanden-970828844.jpg
+portrait: /assets/images/uploads/img_2842.jpeg
 position: F
 spielernummer: "3"
 vorname: Robert
