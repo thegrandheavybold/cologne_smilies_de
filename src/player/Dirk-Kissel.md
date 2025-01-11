@@ -1,7 +1,7 @@
 ---
 slug: Dirk Kissel
 filter: forward
-portrait: /assets/images/uploads/dirk-min.jpg
+portrait: /assets/images/uploads/img_2784.jpeg
 position: F
 spielernummer: "55"
 vorname: Dirk
