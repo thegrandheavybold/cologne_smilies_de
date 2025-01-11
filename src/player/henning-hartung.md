@@ -1,7 +1,7 @@
 ---
 slug: Henning Hartung
 filter: goalie
-portrait: /assets/images/uploads/img_2819.jpeg
+portrait: /assets/images/uploads/img_2841.jpeg
 position: G
 spielernummer: "30"
 vorname: Henning
