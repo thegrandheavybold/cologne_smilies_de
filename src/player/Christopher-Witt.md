@@ -1,7 +1,7 @@
 ---
 slug: Christopher Witt
 filter: defense
-portrait: /assets/images/uploads/chris-w-min.jpg
+portrait: /assets/images/uploads/img_2820.jpeg
 position: D
 spielernummer: "36"
 vorname: Christopher
