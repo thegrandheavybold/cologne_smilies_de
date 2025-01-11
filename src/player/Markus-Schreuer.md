@@ -1,7 +1,7 @@
 ---
 slug: Markus Schreuer
 filter: forward
-portrait: /assets/images/uploads/markus-min.jpg
+portrait: /assets/images/uploads/img_2829.jpeg
 position: F
 spielernummer: "77"
 vorname: Markus
