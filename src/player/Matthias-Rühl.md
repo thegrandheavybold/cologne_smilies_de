@@ -1,7 +1,7 @@
 ---
 slug: Matthias Rühl
 filter: forward
-portrait: /assets/images/uploads/matze-min.jpg
+portrait: /assets/images/uploads/img_2783.jpeg
 position: F
 spielernummer: "13"
 vorname: Matthias
