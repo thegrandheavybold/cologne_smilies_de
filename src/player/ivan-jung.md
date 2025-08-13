@@ -1,5 +1,5 @@
 ---
-slug: Ivan
+slug: Ivan Jung
 filter: defense
 portrait: /assets/images/uploads/img_2760.jpeg
 position: D
